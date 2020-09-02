@@ -5,3 +5,7 @@ from django.shortcuts import render
 def login(request):
     print("hello")
     return HttpResponse("ok")
+
+def login2(request):
+    print("world")
+    return HttpResponse("err")
